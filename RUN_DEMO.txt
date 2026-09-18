@@ -1,0 +1,15 @@
+EPOCHESQUE WORKING DEMO
+
+Quickest path (works without Python or Gemini):
+1. Open a terminal in frontend\
+2. Run: npm install
+3. Run: npm run dev
+4. Open the local URL printed by Vite, normally http://localhost:5173
+5. Click "Run Demo Failure"
+
+The UI automatically uses an offline, deterministic demo when the FastAPI backend
+is not available. It demonstrates the complete trace: LLM decision, controlled
+tool failure, evidence-backed diagnosis, recovery, verified retry, and replay.
+
+The optional FastAPI backend remains in backend\ for environments with Python
+3.11+ and Gemini configuration. See README.md for its dependency instructions.
